@@ -1,0 +1,222 @@
+[
+    {
+        "input_id": "image_0.png",
+        "prompt": "Add a blue baloon coming from a door. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_0_upd.png"
+    },
+    {
+        "input_id": "image_1.png",
+        "prompt": "Turn every object in a picture into a fruit. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_1_upd.png"
+    },
+    {
+        "input_id": "image_10.png",
+        "prompt": "Add two happy children playing in the foreground. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_10_upd.png"
+    },
+    {
+        "input_id": "image_11.png",
+        "prompt": "Add a broken glass effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_11_upd.png"
+    },
+    {
+        "input_id": "image_12.png",
+        "prompt": "Add a blue baloon coming from a door. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_12_upd.png"
+    },
+    {
+        "input_id": "image_13.png",
+        "prompt": "Add a slogan related to the content of the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_13_upd.png"
+    },
+    {
+        "input_id": "image_14.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_14_upd.png"
+    },
+    {
+        "input_id": "image_15.png",
+        "prompt": "Add a slogan related to the content of the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_15_upd.png"
+    },
+    {
+        "input_id": "image_16.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_16_upd.png"
+    },
+    {
+        "input_id": "image_17.png",
+        "prompt": "Add a giant bird in the foreground. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_17_upd.png"
+    },
+    {
+        "input_id": "image_18.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_18_upd.png"
+    },
+    {
+        "input_id": "image_19.png",
+        "prompt": "Add a broken glass effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_19_upd.png"
+    },
+    {
+        "input_id": "image_2.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_2_upd.png"
+    },
+    {
+        "input_id": "image_20.png",
+        "prompt": "Change color of the main object to purple. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_20_upd.png"
+    },
+    {
+        "input_id": "image_21.png",
+        "prompt": "Add a giant bird in the foreground. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_21_upd.png"
+    },
+    {
+        "input_id": "image_22.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_22_upd.png"
+    },
+    {
+        "input_id": "image_23.png",
+        "prompt": "Add an anime effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_23_upd.png"
+    },
+    {
+        "input_id": "image_24.png",
+        "prompt": "Turn every object in a picture into a fruit. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_24_upd.png"
+    },
+    {
+        "input_id": "image_25.png",
+        "prompt": "Add a giant bird in the foreground. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_25_upd.png"
+    },
+    {
+        "input_id": "image_26.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_26_upd.png"
+    },
+    {
+        "input_id": "image_27.png",
+        "prompt": "Change color of the main object to purple. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_27_upd.png"
+    },
+    {
+        "input_id": "image_28.png",
+        "prompt": "Change color of the main object to purple. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_28_upd.png"
+    },
+    {
+        "input_id": "image_29.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_29_upd.png"
+    },
+    {
+        "input_id": "image_3.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_3_upd.png"
+    },
+    {
+        "input_id": "image_30.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_30_upd.png"
+    },
+    {
+        "input_id": "image_31.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_31_upd.png"
+    },
+    {
+        "input_id": "image_32.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_32_upd.png"
+    },
+    {
+        "input_id": "image_33.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_33_upd.png"
+    },
+    {
+        "input_id": "image_34.png",
+        "prompt": "Add a rain effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_34_upd.png"
+    },
+    {
+        "input_id": "image_35.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_35_upd.png"
+    },
+    {
+        "input_id": "image_36.png",
+        "prompt": "Change color of the main object to purple. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_36_upd.png"
+    },
+    {
+        "input_id": "image_37.png",
+        "prompt": "Add an anime effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_37_upd.png"
+    },
+    {
+        "input_id": "image_38.png",
+        "prompt": "Add a slogan related to the content of the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_38_upd.png"
+    },
+    {
+        "input_id": "image_39.png",
+        "prompt": "Repaint the picture in the style of Malevich. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_39_upd.png"
+    },
+    {
+        "input_id": "image_4.png",
+        "prompt": "Add a broken glass effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_4_upd.png"
+    },
+    {
+        "input_id": "image_40.png",
+        "prompt": "Add a blue baloon coming from a door. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_40_upd.png"
+    },
+    {
+        "input_id": "image_41.png",
+        "prompt": "Add a slogan related to the content of the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_41_upd.png"
+    },
+    {
+        "input_id": "image_42.png",
+        "prompt": "Add a broken glass effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_42_upd.png"
+    },
+    {
+        "input_id": "image_43.png",
+        "prompt": "Turn every object in a picture into a fruit. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_43_upd.png"
+    },
+    {
+        "input_id": "image_5.png",
+        "prompt": "Add two happy children playing in the foreground. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_5_upd.png"
+    },
+    {
+        "input_id": "image_6.png",
+        "prompt": "Turn every object in a picture into a fruit. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_6_upd.png"
+    },
+    {
+        "input_id": "image_7.png",
+        "prompt": "Add a blue baloon coming from a door. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_7_upd.png"
+    },
+    {
+        "input_id": "image_8.png",
+        "prompt": "Add an anime effect to the picture. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_8_upd.png"
+    },
+    {
+        "input_id": "image_9.png",
+        "prompt": "Change color of the main object to purple. Remove the watermarks from the picture and any contact information.",
+        "output_id": "image_9_upd.png"
+    }
+]
