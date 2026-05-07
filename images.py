@@ -27,7 +27,7 @@ for i, picture in enumerate(ds["train"]):
 # 2. Подготовка промптов
 prompt_basket = [
     "Add a giant bird in the foreground",
-    "Add a blue baloon coming from a door",
+    "Add a blue balloon coming from a door",
     "Change color of the main object to purple",
     "Add two happy children playing in the foreground",
     "Add a slogan related to the content of the picture",
@@ -72,7 +72,66 @@ for file in input_dir.iterdir():
 
         results.append(data_json)
 
-
 # 4. Сохранение результатов в json
 with open("final_result.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=4, ensure_ascii=False)
+
+
+# 5. Техническая валидация
+errors = []
+
+input_ids, output_ids = set(), set()
+
+for i, res in enumerate(results):
+    input_id = res.get("input_id")
+    output_id = res.get("output_id")
+    prompt = res.get("prompt")
+
+    if not input_id:
+        errors.append(f"JSON record {i}: missing input_id")
+    if not output_id:
+        errors.append(f"JSON record {i}: missing output_id")
+    if not prompt:
+        errors.append(f"JSON record {i}: missing prompt")
+
+    if input_id:
+        if input_id in input_ids:
+            errors.append(f"Duplicate input_id: {input_id}")
+        input_ids.add(input_id)
+    if output_id:    
+        if output_id in output_ids:
+            errors.append(f"Duplicate output_id: {output_id}")
+        output_ids.add(output_id)
+
+    if input_id and output_id:
+        input_path = input_dir / input_id
+        output_path = output_dir / output_id
+
+        if not input_path.exists():
+            errors.append(f"Missing input file: {input_path}")
+        else:
+            try:
+                with Image.open(input_path) as img:
+                    if img.size[0] == 0 or img.size[1] == 0:
+                        errors.append(f"Invalid input image size: {input_path}")
+            except Exception as e:
+                errors.append(f"Cannot open input image {input_path}: {e}")
+
+        if not output_path.exists():
+            errors.append(f"Missing output file: {output_path}")
+        else:
+            try:
+                with Image.open(output_path) as img:
+                    if img.size[0] == 0 or img.size[1] == 0:
+                        errors.append(f"Invalid output image size: {output_path}")
+            except Exception as e:
+                errors.append(f"Cannot open output image {output_path}: {e}")
+
+print(f"Checked images: {len(results)}")
+
+if errors:
+    print("Validation failed:")
+    for err in errors:
+        print(f"- {err};")
+else:
+    print("Validation passed")
